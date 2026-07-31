@@ -1,3 +1,5 @@
+<!-- Public profile README for github.com/Aurpo-001 -->
+
 <div align="center">
   <img src="./assets/profile-banner.svg" alt="Tanvir Bashar Aurpo - CSE student and software builder" width="100%">
 
