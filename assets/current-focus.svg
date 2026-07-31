@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-label="Current focus areas">
+  <defs>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#251b4d"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#093849"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#482033"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  </defs>
+  <rect x="10" y="10" width="373" height="180" rx="18" fill="url(#card1)" stroke="#8b5cf6" stroke-opacity=".7"/>
+  <rect x="413" y="10" width="373" height="180" rx="18" fill="url(#card2)" stroke="#22d3ee" stroke-opacity=".7"/>
+  <rect x="816" y="10" width="373" height="180" rx="18" fill="url(#card3)" stroke="#ff6b8a" stroke-opacity=".7"/>
+  <text x="38" y="52" fill="#a78bfa" font-family="JetBrains Mono,monospace" font-size="14">01 / FULL-STACK</text>
+  <text x="38" y="86" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="23">Useful web platforms</text>
+  <text x="38" y="119" fill="#b7c1d1" font-family="Inter,Arial,sans-serif" font-size="15">React • Node.js • Databases</text>
+  <text x="38" y="148" fill="#8b98aa" font-family="Inter,Arial,sans-serif" font-size="14">Complete workflows, not mockups.</text>
+  <text x="441" y="52" fill="#22d3ee" font-family="JetBrains Mono,monospace" font-size="14">02 / APPLIED AI</text>
+  <text x="441" y="86" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="23">Vision &amp; deep learning</text>
+  <text x="441" y="119" fill="#b7c1d1" font-family="Inter,Arial,sans-serif" font-size="15">TensorFlow • OpenCV • XAI</text>
+  <text x="441" y="148" fill="#8b98aa" font-family="Inter,Arial,sans-serif" font-size="14">Models with measurable results.</text>
+  <text x="844" y="52" fill="#ff6b8a" font-family="JetBrains Mono,monospace" font-size="14">03 / SYSTEMS</text>
+  <text x="844" y="86" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="23">Hardware &amp; low-level</text>
+  <text x="844" y="119" fill="#b7c1d1" font-family="Inter,Arial,sans-serif" font-size="15">Arduino • C++ • x86 Assembly</text>
+  <text x="844" y="148" fill="#8b98aa" font-family="Inter,Arial,sans-serif" font-size="14">Software meeting the real world.</text>
+</svg>
