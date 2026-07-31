@@ -1,5 +1,3 @@
-<!-- GitHub profile README for github.com/Aurpo-001 -->
-
 <div align="center">
   <img src="./assets/profile-banner.svg" width="100%" alt="Tanvir Bashar Aurpo">
 
