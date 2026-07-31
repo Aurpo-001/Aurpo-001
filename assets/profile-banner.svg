@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tanvir Bashar Aurpo</title>
+  <desc id="desc">Computer Science and Engineering student at BRAC University building full-stack, AI, and embedded-systems projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.42" stop-color="#3b0764"/>
+      <stop offset="0.72" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#4c0519"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      .role { opacity: 0; animation: rotateRole 12s infinite; }
+      .role.two { animation-delay: 4s; }
+      .role.three { animation-delay: 8s; }
+      .node { animation: pulse 3s ease-in-out infinite alternate; }
+      .node.delay { animation-delay: 1.4s; }
+      @keyframes rotateRole {
+        0%, 28% { opacity: 1; transform: translateY(0); }
+        33%, 95% { opacity: 0; transform: translateY(8px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulse { from { opacity: .35; } to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1050" cy="60" r="260" fill="url(#glow)"/>
+  <circle cx="100" cy="340" r="220" fill="#fb7185" opacity="0.08"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.55">
+    <path d="M895 74L1010 130L1120 72"/>
+    <path d="M850 250L960 198L1085 260"/>
+    <path d="M1010 130L960 198"/>
+  </g>
+  <g class="node" fill="#22d3ee">
+    <circle cx="895" cy="74" r="7"/>
+    <circle cx="1010" cy="130" r="9"/>
+    <circle cx="960" cy="198" r="7"/>
+  </g>
+  <g class="node delay" fill="#fb7185">
+    <circle cx="1120" cy="72" r="6"/>
+    <circle cx="850" cy="250" r="8"/>
+    <circle cx="1085" cy="260" r="9"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="58" width="710" height="244" rx="24" fill="#020617" fill-opacity="0.50" stroke="#ffffff" stroke-opacity="0.10"/>
+  </g>
+
+  <text x="110" y="112" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" letter-spacing="2">HELLO, I AM</text>
+  <text x="106" y="178" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="53" font-weight="750">Tanvir Bashar Aurpo</text>
+  <rect x="110" y="204" width="560" height="4" rx="2" fill="url(#accent)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21">
+    <text class="role one" x="110" y="249" fill="#ddd6fe">CSE student building useful full-stack systems</text>
+    <text class="role two" x="110" y="249" fill="#a5f3fc">Applied AI and computer vision explorer</text>
+    <text class="role three" x="110" y="249" fill="#fecdd3">Embedded systems and low-level code enthusiast</text>
+  </g>
+  <text x="110" y="280" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">Computer Science &amp; Engineering · BRAC University</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700">
+    <text x="885" y="165" fill="#a78bfa">&lt;build&gt;</text>
+    <text x="914" y="205" fill="#22d3ee">learn();</text>
+    <text x="946" y="245" fill="#fb7185">ship();</text>
+  </g>
+</svg>
